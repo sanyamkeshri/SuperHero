@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperHero</title>
+    <style>
+        body {
+            background-image: url("bg.webp");
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+        }
+        canvas {
+            height: 500px;
+            width: 800px;
+            border: 5px solid white;
+            position: absolute;
+            top: calc(100vh - 610px);
+        }
+    </style>
+</head>
+<body>
+    <h1>Speed : <input type="number" id="speed" value="10"></h1>
+    <canvas id="can"></canvas>
+</body>
+<script src="script.js"></script>
+</html>
